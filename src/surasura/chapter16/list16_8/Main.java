@@ -2,11 +2,9 @@ package surasura.chapter16.list16_8;
 
 import java.io.FileReader;
 import java.io.IOException;
-import java.nio.file.Paths;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(Paths.get("").toAbsolutePath());
         FileReader reader = null;
         try {
             reader = new FileReader("foo.txt");
