@@ -11,7 +11,7 @@ public class Main {
         cars.add(new LongDriveTruck());
 
         /* コレクション内のオブジェクトを１つずつ処理する */
-        for(Car car : cars) {
+        for (Car car : cars) {
             System.out.println(car.getCarType());
         }
     }

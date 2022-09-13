@@ -9,7 +9,7 @@ public class Main {
     void choiceAction(Light light) {
         if (light == Light.RED) {
             System.out.println("赤なので停止してください");
-        } else if(light == Light.YELLOW) {
+        } else if (light == Light.YELLOW) {
             System.out.println("黄色なので注意してください");
         } else {
             System.out.println("青なので進んでください");
